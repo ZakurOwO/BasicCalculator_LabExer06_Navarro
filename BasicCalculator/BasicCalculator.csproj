@@ -86,5 +86,11 @@
   <ItemGroup>
     <Folder Include="NewFolder1\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorPrivateAssembly2\CalculatorPrivateAssembly2.csproj">
+      <Project>{8fd3285c-35ab-415f-857f-4cfabc77fa86}</Project>
+      <Name>CalculatorPrivateAssembly2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
