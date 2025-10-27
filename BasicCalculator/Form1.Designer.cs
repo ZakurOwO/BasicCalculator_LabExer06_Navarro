@@ -44,6 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(199)))));
             this.label1.Location = new System.Drawing.Point(17, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(242, 36);
@@ -52,6 +53,7 @@
             // 
             // TextBoxInput1
             // 
+            this.TextBoxInput1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(205)))), ((int)(((byte)(199)))));
             this.TextBoxInput1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxInput1.Location = new System.Drawing.Point(22, 59);
             this.TextBoxInput1.Name = "TextBoxInput1";
@@ -64,6 +66,7 @@
             // 
             // ComboBoxData
             // 
+            this.ComboBoxData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(205)))), ((int)(((byte)(199)))));
             this.ComboBoxData.FormattingEnabled = true;
             this.ComboBoxData.Items.AddRange(new object[] {
             "+",
@@ -78,6 +81,7 @@
             // 
             // TextBoxInput2
             // 
+            this.TextBoxInput2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(205)))), ((int)(((byte)(199)))));
             this.TextBoxInput2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold);
             this.TextBoxInput2.Location = new System.Drawing.Point(22, 143);
             this.TextBoxInput2.Name = "TextBoxInput2";
@@ -124,19 +128,22 @@
             // 
             // ComputeBTN
             // 
+            this.ComputeBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(205)))), ((int)(((byte)(199)))));
             this.ComputeBTN.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComputeBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(199)))));
             this.ComputeBTN.Location = new System.Drawing.Point(135, 314);
             this.ComputeBTN.Name = "ComputeBTN";
             this.ComputeBTN.Size = new System.Drawing.Size(110, 31);
             this.ComputeBTN.TabIndex = 7;
             this.ComputeBTN.Text = "Compute";
-            this.ComputeBTN.UseVisualStyleBackColor = true;
+            this.ComputeBTN.UseVisualStyleBackColor = false;
             this.ComputeBTN.Click += new System.EventHandler(this.ComputeBTN_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(98)))), ((int)(((byte)(106)))));
             this.ClientSize = new System.Drawing.Size(381, 357);
             this.Controls.Add(this.ComputeBTN);
             this.Controls.Add(this.ResultTotal);
@@ -148,6 +155,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
